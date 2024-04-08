@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background: #543b41;
+    color: #ffffff;
+    /*cor principaal do texto */
+}
+
+html {
+    font-family: Inter sans-serif;
+    /*família de texto padrão*/
+    font-weight: 500;
+    /*Peso padrão*/
+}
+
+a {
+    text-decoration: none;
+    color: #1f1517;
+    text-transform: uppercase;
+    /*Retirar decoração <a>*/
+}
+
+ul {
+    list-style: none;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center justify;
+}
+
+.menuSuspenso{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem;
+    gap: 5rem;
+    color: #1f1517;
+    text-align: justify;
+    background-color: rgb(101, 197, 176);
+    border-radius: 1rem;
+    border-style: inset outset;
+}
+header{
+    background-color: #557090;
+    font-family: Oswald;
+}
+
+nav {
+    padding: 1rem 6rem;
+    display: flex;
+    flex-direction: row;
+    /*isto já o padrão*/
+    justify-content: space-between;
+    /*Separa os 3 conjuntos de lementos*/
+    align-items: center;
+    /*alinhar elementos ao centro (horizontal)*/
+
+}
+.logo {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+/* ------------------Tag main */
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #CDCDE3;
+    color: black;
+}
+.titulo-centralizado{
+    font-family: Oswald;  
+    text-align: center;
+    font-size: 2.5rem ;
+}
+.texto{
+    font-family: roboto;
+    text-align:justify ;
+    text-align: center;
+}
+.img-txt{
+    display: flex;
+    padding: 1rem;
+    gap: 4rem;
+    max-height: fit-content;
+    padding-top: 1rem;
+}
+.img-hero{
+    max-width: 100%;
+}
+.container-img-poshero{
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 2rem;
+}
+.texto-lateral-poshero{
+    width: 50%;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    text-align: justify;
+}
+.conteudo-inferior{
+    padding: 1rem 3rem;
+    padding-top: 0rem;
+}
+footer{
+    background-color: #557090;
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: #fff;
+}
+.footer {
+    text-align: justify;
+    display: flex;
+    gap: 12rem;
+    padding-left: 4rem;
+    
+}
+.telefone{
+    font-size: small;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+.disclaimer{
+    text-align: center;
+    padding-top: 2rem;
+}
+.midias{
+   display: flex;
+   padding-top: 2rem;
+   gap: 2.5rem;
+   max-height: 10rem;
+   max-width: 20rem;
+   align-items: center;
+   padding-left: 4rem;
+}
+.endereco{
+    max-height: 10rem;
+   max-width: 15rem;
+   align-items: center;
+}
